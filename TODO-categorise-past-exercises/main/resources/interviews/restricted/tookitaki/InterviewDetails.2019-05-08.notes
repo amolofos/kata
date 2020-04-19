@@ -1,0 +1,46 @@
+Software Engineer position
+--------------------------
+
+
+Meeting minutes 2019-05-08
+--------------------------
+Participants: priyanka.edwankar@tookitaki.com
+
+The company has two main departments
+  Engineering
+    It is the core product. Works with scrum and sprints.
+  Delivery
+    Dedicated to a client
+    From deploy to production. Dealing with SIT, UAT, preprod.
+    Each delivery team has on or two implementation engineers, a project manager and a technical manager.
+    After roll out the team includes data scientists. They deal with real time data, analysis and coding in python.
+
+Their services
+  * Data analytics
+  * Machine learning
+  * Banks
+    AML Suite
+    Recon Suite
+    Portfolio Management
+
+Position details
+  Imlementation Engineer for AML
+  Optimising the system depending on the input data and DA
+  Stack
+    Hadoop, Spark, Yarn
+  Responsibilities
+    Delivery plan
+    Provide estimates
+    Just follow the plan, the schedule and make the client happy.
+  Close coordination between the engineering and delivery teams.
+
+Interview questions
+* ssh communication between two servers
+  How to add a key in a server.
+* Keytab?
+* Kerberos?
+* Aws?
+
+Next steps
+  * Two more rounds
+  * Deepak will conduct me.

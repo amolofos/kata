@@ -1,0 +1,220 @@
+
+Backend Engineer position
+-------------------------
+
+Preperation for the interview
+* 2019-04-16
+    Google Meets meeting (https://meet.google.com/trr-fbrz-txh)
+    Introduction by Eyeota about Eyeota.
+    Participants:
+        myself: kafetzis.dimitris.andreas@gmail.com
+        recruiter: omar@breathe-consulting.com
+        recruiter: James Flitt
+        Krishna: kbalusu@eyeota.com
+        jcerna@eyeota.com
+
+Position details
+    * team in Singapore
+    * building a high-performance, highly scaled global platform
+    * employ cutting-edge technologies and techniques in a rapidly evolving domain
+    * thrive in a progressive, environment which relies on communication and initiative
+    rather than process to deliver at a high velocity
+    * have a "Product Owner" rather than a "Task Implementor" attitude
+    * Desired Qualifications:
+        * Experience building systems involving messaging and/or event-driven architectures
+            DK:
+        * Deep technical understanding of at least one of core Java or Golang
+            DK: I definetely lack here. But i am willing to work hard to get at the desired level.
+            Also, i have started taking this more seriously and study by myself.
+        * Strong handle on concurrency challenges and design solutions
+            DK: Concurrent calls between the subsystems
+        * Strong buyer of Agile/Lean values
+            DK: I have never participated in a team that has fully adopted Agile methodology.
+        * Heavy emphasis on code testing and designing for testability
+        * Maturity and aptitude to operate in a high-freedom/high-responsibility environment
+            DK: This is one of the things that i am looking for in the new position.
+        * Strong troubleshooting skills
+            DK: I have been supporting production betting systems the past 5 years.
+        * Experience with techops, supporting and troubleshooting large systems
+            DK: See above.
+        * Exposure to devops automation such as Chef, and Ansible
+            DK: Ofcourse!
+        * Exposure to IAAS platforms such as AWS EC2, Rackspace, etc...
+            DK: Not that much.
+        * Experience with Apache Cassandra, Hadoop, or other NoSQL databases
+            DK: Noop.
+        * Involvement in an open-source community
+            DK: Unfortunately not.
+
+Eyeota as a company
+    * We have a truly global footprint, with our headquarters in Singapore and offices in
+    Berlin, London, Melbourne, New York, Sydney and Tokyo.
+    * We are at the cutting edge of advertising technology and there is never a dull moment at work.
+    * Founded in 2010.
+
+    Two audience groups
+        * Marketers
+            Helps them to build campaigns based on already available segments (and data) or against their custom data sources.
+        * Data owners
+            "Eyeota empowers data owners with the flexibility and control to maximize revenue and grow visibility with brands and marketers."
+            It specifically allows customers to sell their data through Eyeota platform.
+
+
+    Key points
+        * "All data available within the Eyeota Audience Marketplace is privacy-compliant, transparent and qualified."
+        * "Eyeota is directly integrated with the leading global ad buying platforms, trading desks, DSPs, DMPs and ad networks.
+        Our Partner Distribution Network provides our clients optimal control over their data and how their
+        audiences are distributed and monetized."
+
+    How do they work?
+        Different sources of data.
+        Create profiles, analyse and discover trends.
+        Sell these findings in customers.
+        THey offer services through their DataDesk and "audience specialists".
+
+Questions to ask
+----------------
+Participants
+    * Current roles?
+        Krishna: kbalusu@eyeota.com
+        jcerna@eyeota.com
+    * What is a normal day for you?
+Company
+    * Technology stack?
+        Proprietary vs Open Source?
+    * "thrive in a progressive, environment which relies on communication and initiative rather than process to deliver at a high velocity"
+        Can we justify this a bit?
+        Are we taking things easier? Slower?
+        If high velocity is not the goal, what is?
+        What processes are there to support this?
+    * Engineer
+        Different levels?
+        Reviews?
+    * Agile/Lean
+        How are the teams structured?
+        Are they multi-region placed? Remote?
+        Composition? Different roles?
+Reviews
+    * Glassdoor
+        https://www.glassdoor.sg/Reviews/Eyeota-Reviews-E1277378.htm?countryRedirect=true
+        In 2018 from top you went to 3.2
+        Culture and career opportunities are 3.3. Good.
+        Work life balance is 3.4.
+        Senior management is 2.8.
+        Compensation is 3.0.
+        Comments
+            * Poor management, lack of accountability, mediocre product, high turnover, no direction
+            * The rapid turnaround within the company was quite surprising, especially within the AU office.
+                Lots of people would start their jobs then leave within months not having had all of the expectations
+                clearly laid out for them in the first place. There was a serious lack of professionalism within our
+                particular office. They hired employees for management roles who had NO people management experience
+                and some teams would only contain people from certain backgrounds, which was quite frustrating at times
+                as there can be lots of cultural differences.
+                * Holiday allowances. Start-up setup. Though processes are being put in place as company continues to grow.
+                Direction changes pretty quickly (all for the positive to ensure its ahead of the game).
+                At times resources can feel strained.
+            * I have been at the company for nearly a year and its been chaotic at times but I have learned so much.
+
+
+Questions to be asked
+---------------------
+What projects have you worked for?
+* Openbet platform
+    Highly transactional based on relational databases betting system.
+    Highly regulated.
+    Scalable, manually though.
+    Concurrent.
+    Distributed, services based.
+    Multiple subsystems
+        Foundation
+        Customer
+        Payments
+        Wallet
+        Sports
+        Lottery
+    Technology stack
+        * Proprietary
+        * Scripting. TCL, bash and a bit python
+        * Java. A bit the past two years.
+        * CI/CD. Maven, Jenkins, Ansible.
+* Payments
+    * Integration with different providers.
+        Safecharge which is a tokekised credit card solution.
+        Paypal
+    * Bank integration
+        Direct integration with bank services.
+        Encryption/Decryption.
+* Release and CI/CD process
+    Helped to define and simplify the release process.
+    Helped to stabilise and minimise issues based on it.
+* Production support
+    OOO support
+    P1 & P2s
+    Liaising with high level management to perform a post moderm and root cause review.
+* Migrations
+    ETL
+    E: From OB to new platform (Rank)
+    TL: From old platform (MM2) to OB
+    ETL: From OB to OB (Lottery robustness)
+
+Describe your path.
+    I have started my career as a software engineer at December 2012 in the same company i am working now.
+    I was located in Greece, Athens, but moved here in Signapore at 2015.
+    Betting systems, highly transactional supporting different areas. That would be the foundation services, customer profile, payments,
+    sports subsystem and lottery one.
+        Proprietary. Tcl based modules.
+        Past 3 years java adoption has begun.
+    Working in small teams from 5 to 20 people trying to fo
+    llow an agile, scrum like methodology.
+    Daily routine.
+        Liaise with the PM, PO making sure the deliverables are on schedule.
+        Liaise with the other members of the team. Clarify requirements, mentor and unblock them, conduct reviews.
+        Write impact assessments for new projects and design analysis regarding the architecure of new functionality and the
+            techinical implementation details of them.
+        Liaise with the customer stakeholders to gather requirements.
+        Monitor the production system and act in case of an incident.
+        Liaise with customer managers and board performing post moderm analysis and explaining root cause.
+Failures
+    Migration project
+
+
+Meeting minutes
+---------------
+Participants: Krishna and myself
+
+Krishna
+    * Lead of the core platform here in Singapore
+
+Company
+    Teams:
+        * Core platform
+            The biggest team.
+            Internal fleet of servers.
+            No ui.
+            Java as the main language. Some golang.
+            Database is cassandra.
+            Kafka the middleware.
+            The is a batch processing subsystem too.
+        * Data science
+        * Reporting team
+            Spark, Golang, Druid
+        * Ui team
+            The smallest of all.
+            Only for the backoffice management system
+            React, Amber.js
+    Team of core platform
+        Agile like setup. Follow their own Kanban approach.
+        Every role codes, tests and deploys.
+        All engineers are equal.
+        Every week there is a meeting to catch up sync and flag reviews etc.
+        Collboration tool is basecamp. One or two work in a ticket till completion.
+        There are code reviews.
+    People
+        Small company.
+        Start up style.
+        20 engineers only, all of them located here in Singapore.
+        CEO is in UK but comes often.
+    Management
+        I asked about the poor reviews the management has received.
+        Krishna did not comment straight. He stated that there is an open culture which is not hierarchical.
+        At least for his team, if someone wants a change, he/she suggests it and if the team buys in, it is implemented.

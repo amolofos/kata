@@ -1,0 +1,58 @@
+{
+   "page":1,
+   "per_page":10,
+   "total":97,
+   "total_pages":10,
+   "data":[
+      {
+         "Title":"The Maze Runner",
+         "Year":2014,
+         "imdbID":"tt1790864"
+      },
+      {
+         "Title":"Maze Runner: The Scorch Trials",
+         "Year":2015,
+         "imdbID":"tt4046784"
+      },
+      {
+         "Title":"Into the Grizzly Maze",
+         "Year":2015,
+         "imdbID":"tt1694021"
+      },
+      {
+         "Title":"Hercules in the Maze of the Minotaur",
+         "Year":1994,
+         "imdbID":"tt0110018"
+      },
+      {
+         "Title":"The Crystal Maze",
+         "Year":1990,
+         "imdbID":"tt0098774"
+      },
+      {
+         "Title":"The Maze",
+         "Year":2010,
+         "imdbID":"tt1675758"
+      },
+      {
+         "Title":"Maze",
+         "Year":2000,
+         "imdbID":"tt0246072"
+      },
+      {
+         "Title":"Iron Maze",
+         "Year":1991,
+         "imdbID":"tt0102128"
+      },
+      {
+         "Title":"The Maze",
+         "Year":1953,
+         "imdbID":"tt0046057"
+      },
+      {
+         "Title":"Maze Runner: The Burn Trials",
+         "Year":2015,
+         "imdbID":"tt4844320"
+      }
+   ]
+}
