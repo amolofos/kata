@@ -1,0 +1,10 @@
+---
+logging:
+  level.: DEBUG
+
+app:
+  testsList:
+    - FraudulentActivityNotifications
+    
+  logging:
+    enabled: true

@@ -1,0 +1,43 @@
+# Subarray Sum Equals K
+=======================
+
+Given an array of integers and an integer k, you need to find the total number
+of continuous subarrays whose sum equals to k.
+
+Example 1:
+Input:nums = [1,1,1], k = 2
+Output: 2
+
+Note:
+* The length of the array is in range [1, 20,000].
+* The range of numbers in the array is [-1000, 1000] and the range of the
+integer k is [-1e7, 1e7].
+
+# Solution
+==========
+
+Brute force will involve trying all the available combintations. We would need a
+double loop through the array elements.
+Time : O(n ^ 2)
+Space: O(1)
+
+Sliding window will not work here since we have positive, zero and negative
+integers which mean we need to take into account all the elements and skip none.
+
+Based on the above, in order to reduce the time complexity, we should try and
+remember previous sums. One way to do this is by employing cumulative sum technic.
+```
+sum(i,j)=sum(0,j)-sum(0,i), where sum(i,j) represents the sum of all the elements from index i to j-1.
+```
+
+
+
+Bibliography
+* https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3307/discuss/591914/Java-Solution-with-and-without-map
+* https://xiaokangstudynotes.com/2017/01/24/maximum-size-subarray-sum-equals-k/
+This refers to a similar problem but explains the logic of cumulative sum.
+
+# Occurences
+============
+* https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3307/
+You can find it under LeetCode/LeetCode30DayChallenge2020-04/LeetCodeDay22 path.
