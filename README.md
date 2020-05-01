@@ -17,5 +17,5 @@ script to find and build all pom files in all the subdirectories.
 The license of this repository and the work that the committers have
 added into is provided under MIT. However, it should be noted that
 the exercises included in this repo are not owned by us in a lot of
-cases as they have been solved in various platforms. Once should 
+cases as they have been solved in various platforms. One should 
 check the source of the exercise before making use of it.
