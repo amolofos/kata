@@ -7,7 +7,7 @@ import sys
 import unittest
 from MaximumSubarray import Solution
 
-class TestPositionsOfLargeGroups(unittest.TestCase):
+class TestMaximumSubarray(unittest.TestCase):
     def setUp(self):
         self.solution = Solution()
 
