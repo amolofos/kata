@@ -24,7 +24,9 @@ class Solution:
 
         memory = {}
         for i, e in enumerate(nums):
-            if e in memory: return (memory[e], i)
+            if e in memory:
+                return (memory[e], i)
+
             memory[(target - e)] = i
 
         return []
