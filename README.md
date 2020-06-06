@@ -1,12 +1,13 @@
 # Overview
 Various exercises to keep my skills polished.
 
-# Build
+# Build [![Build Status](https://cloud.drone.io/api/badges/amolofos/kata/status.svg)](https://cloud.drone.io/amolofos/kata)
 At this point we support only maven based projects. Just execute the build
 script to find and build all pom files in all the subdirectories.
 ```
-./build.sh
+./scripts/build.sh
 ```
+
 # TODO
 * Categorise the files under TODO-categorise-past-exercises directory.
 * Complete the failing exercises
@@ -17,5 +18,5 @@ script to find and build all pom files in all the subdirectories.
 The license of this repository and the work that the committers have
 added into is provided under MIT. However, it should be noted that
 the exercises included in this repo are not owned by us in a lot of
-cases as they have been solved in various platforms. One should 
+cases as they have been solved in various platforms. One should
 check the source of the exercise before making use of it.
