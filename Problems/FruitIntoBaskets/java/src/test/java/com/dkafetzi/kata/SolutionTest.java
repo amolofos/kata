@@ -30,11 +30,15 @@ class SolutionTest {
 		Solution solution = new Solution();
 		int output;
 
-		output = solution.totalFruit(input);
+		output = solution.totalFruitOnV1(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 
 		output = solution.totalFruitOn2(input);
+		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
+		assertEquals(expectedOutput, output);
+
+		output = solution.totalFruitOnV2(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 	}
@@ -57,11 +61,15 @@ class SolutionTest {
 		Solution solution = new Solution();
 		int output;
 
-		output = solution.totalFruit(input);
+		output = solution.totalFruitOnV1(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 
 		output = solution.totalFruitOn2(input);
+		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
+		assertEquals(expectedOutput, output);
+
+		output = solution.totalFruitOnV2(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 	}
@@ -84,11 +92,15 @@ class SolutionTest {
 		Solution solution = new Solution();
 		int output;
 
-		output = solution.totalFruit(input);
+		output = solution.totalFruitOnV1(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 
 		output = solution.totalFruitOn2(input);
+		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
+		assertEquals(expectedOutput, output);
+
+		output = solution.totalFruitOnV2(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 	}
@@ -111,11 +123,15 @@ class SolutionTest {
 		Solution solution = new Solution();
 		int output;
 
-		output = solution.totalFruit(input);
+		output = solution.totalFruitOnV1(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 
 		output = solution.totalFruitOn2(input);
+		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
+		assertEquals(expectedOutput, output);
+
+		output = solution.totalFruitOnV2(input);
 		LOGGER.info("Input: {}, Expected output: {}, Output: {}.", input.toString(), expectedOutput, output);
 		assertEquals(expectedOutput, output);
 	}
