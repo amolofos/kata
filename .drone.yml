@@ -1,0 +1,19 @@
+---
+kind: pipeline
+name: java
+
+steps:
+- name: test
+  image: maven:3-jdk-8
+  commands:
+  - ./scripts/build_java.sh
+
+---
+kind: pipeline
+name: python-3-3
+
+steps:
+- name: test
+  image: python:3.3
+  commands:
+  - ./scripts/build_python.sh
