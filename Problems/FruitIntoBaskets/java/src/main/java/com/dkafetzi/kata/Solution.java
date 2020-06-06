@@ -23,7 +23,7 @@ class Solution {
 	 * Time: O(n)
 	 * Space: O(1)
 	 */
-	public int totalFruit(int[] tree) {
+	public int totalFruitOnV1(int[] tree) {
 		// The last fruit which we saw.
 		int last_fruit = -1;
 		// The second last fruit which we saw.
@@ -111,5 +111,56 @@ class Solution {
 			}
 		}
 		return max;
+	}
+
+	/*
+	 * Implementation from a mock interview.
+	 * Time: O(n)
+	 * Space: O(1)
+	 */
+	public int totalFruitOnV2(int[] tree) {
+		int highest = 0;
+		int lastNum = Integer.MAX_VALUE;
+		int lastCount = 0;
+		int currentNum = Integer.MAX_VALUE;
+		int currentCount = 0;
+		int accuCount = 0;
+
+		for (int i = 0; i < tree.length; i++) {
+			int num = tree[i];
+			if (currentNum == Integer.MAX_VALUE) {
+				currentNum = num;
+				currentCount++;
+			} else if (currentNum == num) {
+				currentCount++;
+			} else {
+				if (lastNum == Integer.MAX_VALUE) {
+					lastNum = currentNum;
+					lastCount = currentCount;
+					accuCount += currentCount;
+				} else {
+					if (num == lastNum) {
+						accuCount += currentCount;
+					} else {
+						accuCount += currentCount;
+						if (highest < accuCount) {
+							highest = accuCount;
+						}
+						accuCount = currentCount;
+					}
+
+					lastNum = currentNum;
+					lastCount = currentCount;
+				}
+				currentNum = num;
+				currentCount = 1;
+			}
+		}
+
+		accuCount += currentCount;
+		if (highest < accuCount) {
+			highest = accuCount;
+		}
+		return highest;
 	}
 }
