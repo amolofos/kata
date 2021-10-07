@@ -26,6 +26,21 @@
 > The output array does not count as extra space for space complexity
 > analysis.
 
+# Script
+* We are going to present him with the problem statement.
+* We will not ask him not to use division.
+* If he starts using division, then we will need to present
+* him with an example where an element is zero (0).
+
+# Edge cases
+* Array size > 2 and one element is zero(0).
+
+# Solutions
+* 2 encapsulated loops O(n^2) with an extra array.
+* 3 independent loops with 2 extra arrays.
+* 2 independent loops with just the return array.
+* 2 loops. Taking zero cases separately. Then looping and instead of division we use a / b = a * b^-1.
+
 # Sources
 ## LeetCode
 238. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
