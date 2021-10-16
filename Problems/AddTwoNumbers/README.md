@@ -37,6 +37,7 @@
 * One list is empty
 * Adding the final elements generates a carry
 l1=[9,9], l2=[1], output=[0,0,1]
+* Null lists in case of java?
 
 # Solutions
 * One while and a final check for the carry over.

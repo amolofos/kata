@@ -35,7 +35,7 @@ should be HeapSort
 Time O(n * logn), Space O(1)
 * Give them a hint whether they can use the same array to store
 the counts. We can parse the elements and store negative counts.
-The we will need a final pass to find the ones that are seen twice.
+Then we will need a final pass to find the ones that are seen twice.
 Time O(n), Space O(1)
 
 # Edge cases
