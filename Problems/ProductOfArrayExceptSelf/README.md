@@ -29,8 +29,7 @@
 # Script
 * We are going to present him with the problem statement.
 * We will not ask him not to use division.
-* If he starts using division, then we will need to present
-* him with an example where an element is zero (0).
+* If he starts using division, then we will need to present him with an example where an element is zero (0).
 
 # Edge cases
 * Array size > 2 and one element is zero(0).
